@@ -122,7 +122,7 @@ function lib:Window(text, preset, closebind)
     Title.Parent = Main
     Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title.BackgroundTransparency = 1.000
-    Title.Position = UDim2.new(0.0339285731, 0, 0.0564263314, 0)
+    Title.Position = UDim2.new(0.0339285731, 0, 0.1, 0) -- Adjusted position
     Title.Size = UDim2.new(0, 300, 0, 40) -- Increased size
     Title.Font = Enum.Font.GothamBold
     Title.Text = text
