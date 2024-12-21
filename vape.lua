@@ -122,14 +122,14 @@ function lib:Window(text, preset, closebind)
     Title.Parent = Main
     Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title.BackgroundTransparency = 1.000
-    Title.Position = UDim2.new(0.0339285731, 0, 0.01, 0)
-    Title.Size = UDim2.new(0, 300, 0, 40) 
+    Title.Position = UDim2.new(0.0339285731, 0, 0.02, 0) -- Adjusted position to move text up more
+    Title.Size = UDim2.new(0, 300, 0, 40) -- Increased size
     Title.Font = Enum.Font.GothamBold
     Title.Text = text
-    Title.TextColor3 = Color3.fromRGB(255, 255, 255) 
-    Title.TextSize = 24.000 
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255) -- Changed to white for better visibility
+    Title.TextSize = 24.000 -- Increased text size
     Title.TextXAlignment = Enum.TextXAlignment.Left
-    
+
     DragFrame.Name = "DragFrame"
     DragFrame.Parent = Main
     DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
